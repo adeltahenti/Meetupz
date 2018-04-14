@@ -93,3 +93,36 @@ lb acl
 * ...
 * Change all the roles in write only
 * ...
+
+## Create React Client
+
+> In the root of Meetupz folder create client_src folder
+
+* Switch in the client_src folder
+* Install globaly create-react-app
+
+```bash
+npm i -g create-react-app
+```
+
+* Create React App in this directory
+
+```bash
+create-react-app .
+```
+
+* Run the server
+
+```bash
+npm start
+```
+
+* Said yes for a question: Would you like to run the app on another port instead?
+
+* Change package.son file
+
+  * In scripts
+
+  ```bash
+  "start": "set PORT=3001 && react-scripts start",
+  ```
