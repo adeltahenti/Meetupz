@@ -6,6 +6,12 @@
 npm i -g loopback-cli
 ```
 
+> When you use GitHub, catch password in git
+
+```bash
+git config --global credential.helper wincred
+```
+
 # Installation
 
 > Create App
