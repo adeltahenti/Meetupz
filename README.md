@@ -24,7 +24,7 @@ node .
 
 ## Use MongoDB as Database Source
 
-* Install MongogoDB
+* Install MongogoDB Connector
 
 ```bash
 npm i loopback-connector-mongodb
