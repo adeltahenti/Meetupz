@@ -14,9 +14,8 @@
       "type": "string",
       "required": true
     },
-    "adress": {
-      "type": "string",
-      "required": false
+    "address": {
+      "type": "string"
     }
   },
   "validations": [],
